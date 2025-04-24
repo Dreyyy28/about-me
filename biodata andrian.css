@@ -1,0 +1,78 @@
+@import url('bg.jpg');
+
+body {
+    font-family: 'Kalam', cursive;
+    background: url('bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    border: 3px dashed #ffb6b9;
+}
+
+header h1 {
+    text-align: center;
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #05aff1bd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.info p {
+    margin: 6px 0;
+    font-size: 1.1em;
+}
+
+.about, .skills {
+    margin-bottom: 30px;
+}
+
+.about h2, .skills h2 {
+    color: #ff7f50;
+    border-bottom: 2px dashed #ffa07a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.05em;
+}
+
+.skills ul li::before {
+    content: "🐾 ";
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+    font-style: italic;
+}
